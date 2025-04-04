@@ -1,0 +1,34 @@
+{
+  "reviews": [
+    {
+      "author": "Hailey",
+      "text": "it's good",
+      "stars": 4,
+      "id": 7
+    },
+    {
+      "author": "ellen",
+      "text": "it was great",
+      "stars": 5,
+      "id": 9
+    },
+    {
+      "author": "Benny",
+      "text": "Loved it!",
+      "stars": 4,
+      "id": 11
+    },
+    {
+      "author": "Bobby",
+      "text": "nice",
+      "stars": 3,
+      "id": 13
+    },
+    {
+      "author": "Dave",
+      "text": "great!",
+      "stars": 5,
+      "id": 15
+    }
+  ]
+}

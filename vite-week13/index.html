@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="NicePng_cabin-icon-png_4314471.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Lodge</title>
+</head>
+
+<body class="container">
+
+  <!-- Welcome -->
+  <div class="flex bg-secondary bg-opacity-75">
+    <img src='NicePng_cabin-icon-png_4314471.png'>
+    <h1>Welcome to The Lodge</h1>
+    <h3>Escape to Tranquility at Our Mountain Lodge</h3>
+    <p>
+
+      Experience the perfect retreat in the heart of nature at our scenic mountain lodge. Surrounded by
+      breathtaking landscapes, fresh alpine air, and cozy accommodations, our lodge offers an unforgettable
+      getaway for adventurers and relaxation seekers alike. Enjoy hiking, wildlife spotting, and serene evenings
+      by the fireplace. Whether you're looking for an adventurous escape or a peaceful retreat, our mountain lodge
+      provides the perfect setting for a rejuvenating experience.
+
+      Check out our reviews and book your stay today!</p>
+  </div>
+  <!-- Reviews -->
+  <div>
+    <h1>Reviews</h1>
+  </div>
+  <div class="container  mt-3 " id="finished-reviews">
+
+  </div>
+  <!-- form -->
+  <div class=" container rounded-5 p-3 border-dark bg-secondary text-info bg-opacity-75">
+    <div class="p-1 text-center">
+      <h2>Write Review</h2>
+    </div>
+    <form>
+      <div class="p-1">
+        <label for="exampleFormControlInput1" class="form-label" id="user-name-lable">Name</label>
+        <input type="text" class="form-control" id="user-name">
+      </div>
+      <div class="flex-sm-shrink-1">
+
+        <div class="btn-group me-2 mb-3" role="group" aria-label="btn group" id="review-stars-select">
+          <button type="button" class="btn" id="str-btn-1">⭐</button>
+          <button type="button" class="btn" id="str-btn-2">⭐</button>
+          <button type="button" class="btn" id="str-btn-3">⭐</button>
+          <button type="button" class="btn" id="str-btn-4">⭐</button>
+          <button type="button" class="btn" id="str-btn-5">⭐</button>
+        </div>
+      </div>
+      <textarea class="form-control" id="review-textarea"></textarea>
+      <button class="btn btn-outline-info mt-3" id="save-btn">Save</button>
+    </form>
+  </div>
+  <script type="module" src="src/main.ts"></script>
+</body>
+
+</html>

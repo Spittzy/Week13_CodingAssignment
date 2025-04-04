@@ -1,0 +1,43 @@
+body {
+  background-image: url('https://www.hotelscombined.com/news/wp-content/uploads/sites/314/2020/08/GettyImages-595137433.jpg');
+  background-attachment: fixed;
+
+}
+
+label {
+  font-size: 20px;
+}
+
+div h1 {
+  display: flex;
+  font-size: 72px;
+  text-align: center;
+  color: rgb(51, 16, 83);
+  word-wrap: break-word;
+  padding: 2px;
+  margin: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: 85px;
+  min-width: 300px;
+}
+
+img {
+  height: 200px;
+}
+
+p {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+h3 {
+  padding-left: 15px;
+}
+
+#review-stars-select {
+  max-width: 300px;
+}
